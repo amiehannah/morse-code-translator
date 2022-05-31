@@ -55,7 +55,7 @@ const alphabet = {
   "(": "-.--.",
   ")": "-.--.-",
   "&": ".-...",
-  "'": ".----."
+  "'": ".----.",
 };
 
 const morseAlphabet = {
@@ -102,11 +102,11 @@ const morseAlphabet = {
   "-.-.-.": ";",
   "-.-.--": "!",
   "-....-": "-",
-  "/": " ", 
+  "/": " ",
   "-.--.": "(",
   "-.--.-": ")",
   ".-...": "&",
-  ".----.": "'"
+  ".----.": "'",
 };
 class Translator {
   constructor() {
@@ -157,7 +157,7 @@ translateButton.addEventListener("click", () => {
     userInput.innerHTML = "Please add message to translate!";
   } else {
     // const checkInputRegEx = /[^\s0-9a-zA-Z]+/g;
-    const checkInputRegEx = /[^\s0-9a-zA-Z'\/(,:;&?!)-]/gm;
+    const checkInputRegEx = /[^\s0-9a-zA-Z'\/(,:;&?!)-\.{3,}]/gm;
     console.log(checkInputRegEx.test(userInputValue));
     if (checkInputRegEx.test(userInputValue)) {
       const morseTranslateToEnglish = new MorseToEnglish();
@@ -193,7 +193,6 @@ class MorseToEnglish extends Translator {
         // return " ";
 
         return morseAlphabet[element] ? morseAlphabet[element] : element;
-
       })
       .join("");
 
