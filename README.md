@@ -11,8 +11,8 @@
 ## User Story:
 
 - As a user of this translator, I want to be able to translate content from one language to another, so that I am able to communicate effectively.
-- Given that the user clicks on the translate button and there is _English_ content typed into the input box, the input values should be translated to the _Morse Code_ equivalent and displayed back to the user in the output box.
-- Given that the user clicks on the translate button and there is _Morse Code_ content typed into the input box, the input values should be translated to the _English_ equivalent and displayed back to the user in the output box.
+- Given that the user clicks on the translate button and there is **_English_** content typed into the input box, the input values should be translated to the **_Morse Code_** equivalent and displayed back to the user in the output box.
+- Given that the user clicks on the translate button and there is **_Morse Code_** content typed into the input box, the input values should be translated to the **_English_** equivalent and displayed back to the user in the output box.
 - Given that the user clicks on the reset button, this output display should reset and clear, ready to be used again.
 
 ## Functionality:
