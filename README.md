@@ -17,17 +17,26 @@
 
 ## Functionality:
 
-- Stored the alphabets (english and morse code) in objects, with key value pairs.
-- Created a class of Translator, binding the alphabets to the class.
-- Created methods for each step of the translation, firstly returning the users input.
-- Next breaking down the input, turning it into an array to enable the input to be looped over during the translate method.
-- The Translate input method, uses map() to iterate over the translation array and returns the values from the alphabet object. If the input contains a space (i.e. between words) return/replace it with a '/' which is commonly seen in Morse Code.
-- Display the translation in the output box.
-- This is all triggered by the click event taking place on the 'Translate' button, which creates a new instance of the Translator class and triggers a sequence of methods on the class.
-- Once I had the English to Morse functionality working, I then wanted to be able to translate a Morse input back to English.
-- By extending the Translator class it allows the MorseToEnglish class to inherit any properties and methods from the parent class that could be reused.
-- I had to add a few unique methods to the MorseToEnglish class as breaking down the morse input required different steps, as did translating the input.
-- Finally in the 'Translate' button event listener I added a regular expression and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
+1. Stored the alphabets (english and morse code) in objects, with key value pairs.
+
+```javascript
+const alphabet = {
+  a: ".-",
+  b: "-...",
+  c: "-.-.",
+};
+```
+
+2. Created a class of Translator, binding the alphabets to the class.
+3. Created methods for each step of the translation, firstly returning the users input.
+4. Next breaking down the input, turning it into an array to enable the input to be looped over during the translate method.
+5. The Translate input method, uses map() to iterate over the translation array and returns the values from the alphabet object. If the input contains a space (i.e. between words) return/replace it with a '/' which is commonly seen in Morse Code.
+6. Display the translation in the output box.
+7. This is all triggered by the click event taking place on the 'Translate' button, which creates a new instance of the Translator class and triggers a sequence of methods on the class.
+8. Once I had the English to Morse functionality working, I then wanted to be able to translate a Morse input back to English.
+9. By extending the Translator class it allows the MorseToEnglish class to inherit any properties and methods from the parent class that could be reused.
+10. I had to add a few unique methods to the MorseToEnglish class as breaking down the morse input required different steps, as did translating the input.
+11. Finally in the 'Translate' button event listener I added a regular expression and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
 
 ## Technologies & Features:
 
