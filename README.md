@@ -1,7 +1,6 @@
 # Morse Code Translator
 
-> To create a morse code translator using OOP. The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output.
-> </br>
+> _To create a morse code translator using OOP. The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output._ > </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/morse-code-translator/).
 
@@ -11,20 +10,10 @@
 
 ## User Story:
 
-As a [description of user],
-I want [functionality]
-So that [benefit]
-
-Given… the account has money
-When… the customer requests that cash is sent from one to another
-Then… the account is debited with money specified
-
-//ORIGINAL TEXT
-
-- The user needs to be able to input a value
-- On clicking the translate button, the input is translated to morse and displayed## on the page
-- Reset button allows user to clear the display and reuse the translator.
-- Additionally if user adds Morse code, translator should be able to translate this to the English equivalent
+- As a user of this translator, I want to be able to translate content from one language to another, so that I am able to communicate effectively.
+- Given that the user clicks on the translate button and there is _English_ content typed into the input box, the input values should be translated to the _Morse Code_ equivalent and displayed back to the user in the output box.
+- Given that the user clicks on the translate button and there is _Morse Code_ content typed into the input box, the input values should be translated to the _English_ equivalent and displayed back to the user in the output box.
+- Given that the user clicks on the reset button, this output display should reset and clear, ready to be used again.
 
 ## Functionality:
 
@@ -51,7 +40,7 @@ Then… the account is debited with money specified
 
 ## Unit Testing: <br/>
 
-- I added unit testing to check my methods on the class of Translator.
+- I added unit testing to check the methods on the class of Translator.
 - I've written tests to check if my translator could successfully translate: _characters_, _words_ and _sentences_.
 - My initial code was then refactored to enable it to handle some basic punctuation and numerical values 0-9, as my test initially revealed that these hadn't been accounted for.
 - Hopefully this has enabled my translator to be more robust.
