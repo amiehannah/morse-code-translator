@@ -11,12 +11,22 @@
 
 ## User Story:
 
+As a [description of user],
+I want [functionality]
+So that [benefit]
+
+Given… the account has money
+When… the customer requests that cash is sent from one to another
+Then… the account is debited with money specified
+
+//ORIGINAL TEXT
+
 - The user needs to be able to input a value
 - On clicking the translate button, the input is translated to morse and displayed## on the page
 - Reset button allows user to clear the display and reuse the translator.
 - Additionally if user adds Morse code, translator should be able to translate this to the English equivalent
 
-## Approach: <br/>
+## Functionality:
 
 - Stored the alphabets (english and morse code) in objects, with key value pairs.
 - Created a class of Translator, binding the alphabets to the class.
@@ -30,18 +40,27 @@
 - I had to add a few unique methods to the MorseToEnglish class as breaking down the morse input required different steps, as did translating the input.
 - Finally in the 'Translate' button event listener I added a regular expression and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
 
-## UI: <br/>
+## Technologies & Features:
 
-- I created a textured gradient mesh in Illustrator which I've then applied to the background and added a horizontal ticker.
+- JavaScript
+- Unit Tested using Jest
+- HTML5
+- CSS
+- Mobile first / responsive design
+- UI - features textured gradient mesh background I created in Adobe Illustrator and horizontal ticker to the top of the page.
 
 ## Unit Testing: <br/>
 
-- Unit Testing to check my methods on the class of Translator.
-- I've written tests to check if my translator could successfully translate: characters, words and sentences.
+- I added unit testing to check my methods on the class of Translator.
+- I've written tests to check if my translator could successfully translate: _characters_, _words_ and _sentences_.
 - My initial code was then refactored to enable it to handle some basic punctuation and numerical values 0-9, as my test initially revealed that these hadn't been accounted for.
 - Hopefully this has enabled my translator to be more robust.
 
-### Next Steps: <br/>
+## Further Developments:
 
 - Extend the classes to be able to translate other languages.
 - Format the text outputs, ensuring that capitalised values are structured after every full stop and that values such as 'I' are capitalised etc.
+
+## Contact
+
+Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
