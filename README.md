@@ -68,7 +68,9 @@ class MorseToEnglish extends Translator {
 ```
 
 10. I had to add a few unique methods to the MorseToEnglish class as breaking down the morse input required different steps, as did translating the input.
-11. Finally in the 'Translate' button event listener I added a regular expression `const checkInputRegEx = /[^\s0-9a-zA-Z'\/(,:;&?!)-\.{3,}]/gm;` and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
+11. Finally in the 'Translate' button event listener I added a regular expression </br>
+    `const checkInputRegEx = /[^\s0-9a-zA-Z'\/(,:;&?!)-\.{3,}]/gm;` </br>
+    and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
 
 ## Technologies & Features:
 
