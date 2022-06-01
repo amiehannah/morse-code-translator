@@ -1,9 +1,15 @@
-# Task: <br/>
+# Morse Code Translator
 
-To create a morse code translator using OOP.
-The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output.
+> To create a morse code translator using OOP. The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output.
+> </br>
 
-## Breaking down the problem --> <br/>
+#### Project Link [_here_](https://amiehannah.github.io/morse-code-translator/).
+
+##
+
+![Translator Design](assets/morse-code-translator-screenshot.png)
+
+## User Story:
 
 - The user needs to be able to input a value
 - On clicking the translate button, the input is translated to morse and displayed## on the page
