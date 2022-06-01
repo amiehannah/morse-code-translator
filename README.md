@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-> _To create a morse code translator using OOP. The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output._ > </br>
+> _To create a morse code translator using OOP. The classes used should store all the information needed to translate between Morse code and English (and back again) including alphabets, the word to translate and the eventual output._ </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/morse-code-translator/).
 
