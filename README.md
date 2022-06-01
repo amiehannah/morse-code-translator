@@ -40,12 +40,13 @@ const morseAlphabet = {
 class Translator {
   constructor() {
     (this.alphabet = alphabet),
-    (this.morseAlphabet = morseAlphabet),
-    (this.translationArr = []),
-    (this.translation = ""),
-    (this.output = ""),
-    (this.wordToTranslate = "");
+      (this.morseAlphabet = morseAlphabet),
+      (this.translationArr = []),
+      (this.translation = ""),
+      (this.output = ""),
+      (this.wordToTranslate = "");
   }
+  // Methods here for each step of the translation
 }
 ```
 
@@ -56,8 +57,18 @@ class Translator {
 7. This is all triggered by the click event taking place on the 'Translate' button, which creates a new instance of the Translator class and triggers a sequence of methods on the class.
 8. Once I had the English to Morse functionality working, I then wanted to be able to translate a Morse input back to English.
 9. By extending the Translator class it allows the MorseToEnglish class to inherit any properties and methods from the parent class that could be reused.
+
+```javascript
+class MorseToEnglish extends Translator {
+  constructor() {
+    super();
+  }
+  // Methods here to translate Morse Code to English
+}
+```
+
 10. I had to add a few unique methods to the MorseToEnglish class as breaking down the morse input required different steps, as did translating the input.
-11. Finally in the 'Translate' button event listener I added a regular expression and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
+11. Finally in the 'Translate' button event listener I added a regular expression `const checkInputRegEx = /[^\s0-9a-zA-Z'\/(,:;&?!)-\.{3,}]/gm;` and if statement to validate the input, searching for the correct character combinations in the input string and triggering either an English or Morse translation based on the input characters.
 
 ## Technologies & Features:
 
