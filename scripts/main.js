@@ -110,7 +110,7 @@ const morseAlphabet = {
 };
 class Translator {
   constructor() {
-    (this.alphabet = alphabet),
+      (this.alphabet = alphabet),
       (this.morseAlphabet = morseAlphabet),
       (this.translationArr = []),
       (this.translation = ""),

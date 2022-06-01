@@ -27,7 +27,28 @@ const alphabet = {
 };
 ```
 
+```javascript
+const morseAlphabet = {
+  ".-": "a",
+  "-...": "b",
+  "-.-.": "c",
+```
+
 2. Created a class of Translator, binding the alphabets to the class.
+
+```javascript
+class Translator {
+  constructor() {
+    (this.alphabet = alphabet),
+    (this.morseAlphabet = morseAlphabet),
+    (this.translationArr = []),
+    (this.translation = ""),
+    (this.output = ""),
+    (this.wordToTranslate = "");
+  }
+}
+```
+
 3. Created methods for each step of the translation, firstly returning the users input.
 4. Next breaking down the input, turning it into an array to enable the input to be looped over during the translate method.
 5. The Translate input method, uses map() to iterate over the translation array and returns the values from the alphabet object. If the input contains a space (i.e. between words) return/replace it with a '/' which is commonly seen in Morse Code.
@@ -58,6 +79,7 @@ const alphabet = {
 
 - Extend the classes to be able to translate other languages.
 - Format the text outputs, ensuring that capitalised values are structured after every full stop and that values such as 'I' are capitalised etc.
+- Aim to make improve writing the methods/functions on the class, with the intention of making them 'pure'.
 
 ## Contact
 
