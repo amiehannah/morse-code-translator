@@ -92,7 +92,7 @@ class MorseToEnglish extends Translator {
 
 - Extend the classes to be able to translate other languages.
 - Format the text outputs, ensuring that capitalised values are structured after every full stop and that values such as 'I' are capitalised etc.
-- Aim to make improve writing the methods/functions on the class, with the intention of making them 'pure'.
+- Aim to improve writing the methods/functions on the class, with the intention of making them more 'pure'.
 
 ## Contact
 
