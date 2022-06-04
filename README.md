@@ -75,10 +75,12 @@ class MorseToEnglish extends Translator {
 ## Technologies & Features:
 
 - JavaScript
+- OOP approach
 - Unit Tested using Jest
 - HTML5
 - CSS
 - Mobile first / responsive design
+- Git Version Control
 - UI - features textured gradient mesh background I created in Adobe Illustrator and horizontal ticker to the top of the page.
 
 ## Unit Testing: <br/>
