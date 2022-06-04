@@ -88,7 +88,6 @@ class MorseToEnglish extends Translator {
 - I added unit testing to check the methods on the class of Translator.
 - I've written tests to check if my translator could successfully translate: _characters_, _words_ and _sentences_.
 - My initial code was then refactored to enable it to handle some basic punctuation and numerical values 0-9, as my test initially revealed that these hadn't been accounted for.
-- Hopefully this has enabled my translator to be more robust.
 
 ## Further Developments:
 
