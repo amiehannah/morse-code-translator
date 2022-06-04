@@ -98,3 +98,9 @@ class MorseToEnglish extends Translator {
 ## Contact
 
 Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
+
+<br/>
+<div align="right">
+    <b><a href="#"> ^ back to top</a></b>
+</div>
+<br/>
