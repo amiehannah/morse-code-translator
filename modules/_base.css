@@ -1,10 +1,5 @@
 /* linking to external styles */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap");
-
-$light-beige: #f9efd9;
-$light-beige-opacity: rgba(249, 239, 217, 0.2);
-$navy: #040336;
-
 /* reset styles */
 * {
   margin: 0px;
