@@ -1,7 +1,7 @@
 /* linking to external styles */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap");
 
-$light-beige: #f9efd9;
+$light-beige: #fffbf1;
 $light-beige-opacity: rgba(249, 239, 217, 0.2);
 $navy: #040336;
 
@@ -14,13 +14,27 @@ $navy: #040336;
   font-size: 1rem;
 }
 
-main {
-  background-image: url("../assets/artboard.png");
-  // background-color: ; //back up gradient
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+html {
+  background: linear-gradient(
+    224.66deg,
+    #eec639 22.45%,
+    rgba(204, 26, 108, 0.96) 91.95%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
+
+
+#shape2 {
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #6e7bb7 11.16%,
+    rgba(162, 135, 120, 0) 85.12%
+  );
+
+}
+
 
 .main__wrapper {
   height: 100vh;
