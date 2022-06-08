@@ -6,7 +6,7 @@
 
 ##
 
-![Translator Design](assets/morse-code-translator-screenshot.png)
+![Translator Design](assets/morse-code-translator-image.png)
 
 ## User Story:
 
